@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: linear-gradient(
+        rgba(24, 23, 23, 0.185),
+        rgba(0, 0, 0, 0.171)),
+        url(img/tipo2.jpeg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #0f0f0f;
+    display: block ;
+    font-weight: 700;
+}
+
+.menu.navbar ul li a:hover{
+    color:#CE9678;
+}
+#menu{
+    display: none;
+}
+
+.menu-icono {
+     width: 20px;
+}
+
+.menu .label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    line-height: 50px;
+    color:black;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.header-content p {
+    font-size: 15px;
+    color:black;
+    padding: 0 240px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE9678;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn1:hover {
+    background-color: #ebad8d;
+}
+
+.tipos {
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+}
+.tipos-content {
+    text-align: center;
+}
+
+.tipos-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.tipos-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.tipos-1{
+    padding: 0 25px;
+}
+.coffe-1 img {
+    width: 200px;
+}
+
+.tipos-1 img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tipos-1 h3{
+    color:rgb(231, 13, 13);
+    font-size: 20px;
+    margin-bottom:15px;
+}
+.tipos{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0 ,0 ,0 ,0.7)),
+        url(img/cancer-cells-1024x580.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: fixed;
+        padding: 100px 0;
+
+}
+.tipos-content {
+    text-align: center;
+}
+
+.tipos-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.tipos-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.tipos-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.tipos-1 {
+    padding: 0 100px;
+}
+
+.tipos-1 img{
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.tipos-1 h3 {
+    color: #EACCB3;
+    font-size: 18px;
+}
+
+.general{
+    display: flex;
+}
+
+.general-1{
+    width: 40%;
+    padding: 100px 200px 100px 100px;
+    background-color: #5f78df;
+}
+
+.general-2 {
+    background-image: url(img/infecciones-de-transmision-sexual-1024x536.webp);
+    background-position:  center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+}
+.general-3 {
+    background-image: url(img/OIP.jpeg);
+    background-position:  center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #0a0b0f;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color:black;
+    margin: 25px 0 45px 0;
+}
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content {
+    display:flex;
+    justify-content: space-between;
+}
+
+.blog-1{
+    padding: 15px 55px;
+}
+
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.blog-1 h3{
+    font-size: 25px;
+    color:#0a0b0f;
+}
+.footer {
+    padding: 100px 0;
+    background-color: #0a0b0f;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+link h3 {
+    font-size: 18px;
+    color: white;
+    margin-top: 15px;
+}
+.link a{
+    font-size: 16px;
+    color: white;
+    display: block;
+    margin-bottom: 15px;
+}
+@media(max-width:991px) {
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #0f0f0f;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+ #menu:checked ~ .navbar{
+    display: initial;
+ }
+ 
+ .header {
+    min-height: 0vh;
+ }
+
+ .header-content {
+    padding: 100px 30px;
+ }
+
+ .header-content p {
+    padding: 0;
+ }
+ .tipos {
+    padding: 30px;
+ }
+ .tipos-content h2 {
+    padding: 0;
+ }
+ .tipos-p {
+    padding: 0;
+ }
+
+ .tipos-group {
+    flex: column;
+    margin: bottom 0;
+ }
+ .tipos-img {
+    display: none;
+ }
+
+ .tipos {
+    padding: 30px;
+ }
+
+ .tipos-content p {
+    padding: 0;
+
+ }
+
+ .tipos-group {
+    flex-direction: column;
+    margin-bottom: 0;
+ }
+
+ .tipos-1 {
+    margin-bottom: 25px;
+ }
+ .tipos-1{
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+ }
+ .tipos-2, tipos-3{
+    display: none;
+ }
+ .blog {
+    padding: 30px;
+  }
+  .blog-content{
+    flex-direction: column;
+  }
+
+  .blog-1 {
+    padding: 6;
+  }
+  .footer-content {
+    flex-direction:  column;
+    text-align: center center;
+  }
+
+  .blog-2 {
+    padding: 0;
+  }
+  .footer-content {
+    flex-direction:  column;
+    text-align: none;
+  }
+}
